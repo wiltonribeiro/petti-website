@@ -22,10 +22,9 @@ const styles = {
 class Social extends Component {
 
   render() {
-
     return (
       <div style={styles.root}>
-        <Parallax opacity="min" size="300px" img={background} content={
+        <Parallax opacity="min" size="250px" img={background} content={
             <div style={{textAlign: "center"}}>
                 <h1 style={{fontSize:"48px!important"}}> <Hidden  only={['sm', 'xs']}>Siga-nos nas </Hidden> Redes Sociais</h1>
                 <Hidden  only={['sm', 'xs']}>

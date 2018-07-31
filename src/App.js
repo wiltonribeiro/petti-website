@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import AppBar from './components/AppBar'
 import Home from "./views/Home/Home";
+import Footer from "./components/Footer";
 
 
 class App extends Component {
@@ -9,6 +10,7 @@ class App extends Component {
       <div>
           <AppBar/>
           <Home/>
+          <Footer/>
       </div>
     );
   }

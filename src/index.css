@@ -7,3 +7,11 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+.w3-row-padding>.w3-third{padding:0 8px}
+.w3-third{float:left;width:100%}
+@media (min-width:601px){
+  .w3-third{width:33.33333%}
+}
+.w3-row-padding:after,.w3-row-padding:before{content:"";display:table;clear:both}
