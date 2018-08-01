@@ -4,7 +4,7 @@ class Parallax extends Component {
   render() {
     const { img, content, size, opacity } = this.props;
 
-    let opcValue = 0;
+    let opcValue = 1;
     if(opacity==="max")
         opcValue = 0.25;
     else if(opacity==="min")

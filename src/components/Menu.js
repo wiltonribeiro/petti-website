@@ -42,17 +42,17 @@ class Menu extends Component {
       const sideList = (
           <div style={styles.list}>
               <List component="nav">
-                  <ListItem button>
-                      <FontAwesomeIcon icon={faHome} size='2x' color={styles.colorTheme} />
-                      <ListItemText primary={<p style={styles.menuItem}>Início</p>} />
+                  <ListItem button onClick={() => {window.location.assign('/')}}>
+                          <FontAwesomeIcon icon={faHome} size='2x' color={styles.colorTheme} />
+                          <ListItemText primary={<p style={styles.menuItem}>Home</p>} />
                   </ListItem>
                   <ListItem button>
                       <FontAwesomeIcon icon={faUsers} size='2x' color={styles.colorTheme} />
                       <ListItemText primary={<p style={styles.menuItem}>Integrantes</p>} />
                   </ListItem>
-                  <ListItem button>
-                      <FontAwesomeIcon icon={faHandSpock} size='2x' color={styles.colorTheme} />
-                      <ListItemText primary={<p style={styles.menuItem}>Atividades</p>} />
+                  <ListItem button onClick={() => {window.location.assign('/atividades')}}>
+                          <FontAwesomeIcon icon={faHandSpock} size='2x' color={styles.colorTheme} />
+                          <ListItemText primary={<p style={styles.menuItem}>Atividades</p>} />
                   </ListItem>
                   <ListItem button>
                       <FontAwesomeIcon icon={faCopy} size='2x' color={styles.colorTheme} />
