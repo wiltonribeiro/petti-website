@@ -14,7 +14,7 @@ const styles = {
     img:{
         width:140,
         marginBottom:20,
-        marginTop:10
+        marginTop:10, cursor:"pointer"
     }
 };
 
@@ -24,7 +24,7 @@ class AppBar extends Component {
       <div style={styles.root}>
           <Bar position="static" color="#fff">
               <Toolbar>
-                  <img src={logo} style={styles.img} />
+                  <img src={logo} onClick={() => {window.location.assign('/')}} style={styles.img} />
                   <p style={styles.flex}/>
                   <Menu/>
               </Toolbar>
