@@ -26,7 +26,7 @@ const styles = {
     },
 };
 
-class Modal extends Component {
+class ModalPhoto extends Component {
     state = {
         open: false
     };
@@ -67,4 +67,4 @@ class Modal extends Component {
     }
 }
 
-export default Modal;
+export default ModalPhoto;

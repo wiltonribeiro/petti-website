@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 import Parallax from "../../../components/Parallax";
-import background from "../../../images/paulo.JPG"
+import background from "../../../images/team.jpg"
 import Hidden from '@material-ui/core/Hidden';
-
-const styles = {
-
-};
 
 class Description extends Component {
 
@@ -14,9 +10,9 @@ class Description extends Component {
         <div>
             <Parallax opacity="0" size="250px" img={background} content={
                 <div style={{textAlign: "center", color:"#fff", fontFamily:"Raleway"}}>
-                    <p style={{fontSize:"50px"}}><Hidden  only={['sm', 'xs']}>Nossas </Hidden>Atividades</p>
+                    <p style={{fontSize:"50px"}}><Hidden  only={['sm', 'xs']}>Conheça </Hidden>Nosso Time</p>
                     <Hidden  only={['sm', 'xs']}>
-                        <h4 style={{marginTop:"-50px"}}>Divididas em Ensino, Pesquisa e Extensão</h4>
+                        <h4 style={{marginTop:"-50px"}}>8 Alunos, 4 Cursos, 1 PET - TI</h4>
                     </Hidden>
                 </div>
             } />

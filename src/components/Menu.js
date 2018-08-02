@@ -46,7 +46,7 @@ class Menu extends Component {
                           <FontAwesomeIcon icon={faHome} size='2x' color={styles.colorTheme} />
                           <ListItemText primary={<p style={styles.menuItem}>Home</p>} />
                   </ListItem>
-                  <ListItem button>
+                  <ListItem button onClick={() => {window.location.assign('/membros')}}>
                       <FontAwesomeIcon icon={faUsers} size='2x' color={styles.colorTheme} />
                       <ListItemText primary={<p style={styles.menuItem}>Integrantes</p>} />
                   </ListItem>

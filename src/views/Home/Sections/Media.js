@@ -8,7 +8,7 @@ import img6 from '../../../images/gn4.jpg'
 import img7 from '../../../images/gn1.jpg'
 import img8 from '../../../images/flisol1.jpg'
 import img9 from '../../../images/flisol3.jpg'
-import Modal from "../../../components/Modal";
+import ModalPhoto from "../../../components/ModalPhoto";
 
 
 const styles = {
@@ -45,7 +45,7 @@ class Media extends Component {
   render() {
     return (
         <div style={{fontFamily:"Raleway", color:"#777"}}>
-            <Modal open={this.state.open} alt={this.state.modal.alt} image={this.state.modal.image}/>
+            <ModalPhoto open={this.state.open} alt={this.state.modal.alt} image={this.state.modal.image}/>
             <div style={styles.root}>
                 <div style={styles.content}>
                     <h2>VEJA UM POUCO DO QUE NÓS FAZEMOS</h2>

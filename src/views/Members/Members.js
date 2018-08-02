@@ -1,21 +1,22 @@
 import React, { Component } from 'react';
 import Description from "./Sections/Description";
-import Activity from "./Sections/Activity";
+import MembersList from "./Sections/MembersList";
+
 
 const styles = {
     
 };
 
-class Activities extends Component {
+class Members extends Component {
 
   render() {
     return (
         <div>
             <Description/>
-            <Activity/>
+            <MembersList/>
         </div>
     );
   }
 }
 
-export default Activities;
+export default Members;

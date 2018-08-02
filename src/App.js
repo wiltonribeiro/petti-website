@@ -4,6 +4,7 @@ import Home from "./views/Home/Home";
 import Activities from "./views/Activities/Activities";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route} from "react-router-dom";
+import Members from "./views/Members/Members";
 
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
               <AppBar/>
               <Route exact path="/" component={Home} />
               <Route path="/atividades" component={Activities} />
+              <Route path="/membros" component={Members} />
               <Footer/>
           </div>
       </Router>

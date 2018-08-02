@@ -8,10 +8,35 @@ body {
   font-family: sans-serif;
 }
 
+/*To divide images, based on w3schools*/
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
-.w3-row-padding>.w3-third{padding:0 8px}
-.w3-third{float:left;width:100%}
+.w3-row-padding>.w3-third, .w3-row-padding>.w3-quarter{padding:0 8px}
+.w3-third, .w3-quarter{float:left;width:100%}
 @media (min-width:601px){
   .w3-third{width:33.33333%}
+  .w3-quarter{width:24.99999%}
 }
 .w3-row-padding:after,.w3-row-padding:before{content:"";display:table;clear:both}
+
+/*Activities*/
+.blurImage:hover{
+  webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  filter: blur(4px);
+}
+
+.blurImage, .buttonImage{
+    cursor: pointer;
+}
+
+.blurImage ~ .buttonImage{
+    display: none;
+}
+
+.blurImage:hover ~ .buttonImage{
+    padding: 10px;
+    display: block;
+    color: white;
+    background: none;
+    border: 1px solid white;
+    font-weight: bold;
+}
