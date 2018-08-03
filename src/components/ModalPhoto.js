@@ -51,7 +51,7 @@ class ModalPhoto extends Component {
                             <Typography variant="subheading" color="inherit" style={styles.flex}>
                                 {this.props.alt}
                             </Typography>
-                            <Button style={{fontFamily:'Varela Round'}} color="inherit" onClick={this.handleClose}>
+                            <Button style={{fontFamily:'Varela Round'}} color="primary" onClick={this.handleClose}>
                                 FECHAR
                             </Button>
                         </Toolbar>

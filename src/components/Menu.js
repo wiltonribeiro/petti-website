@@ -43,25 +43,25 @@ class Menu extends Component {
           <div style={styles.list}>
               <List component="nav">
                   <ListItem button onClick={() => {window.location.assign('/')}}>
-                          <FontAwesomeIcon icon={faHome} size='2x' color={styles.colorTheme} />
+                          {/*<FontAwesomeIcon icon={faHome} size='2x' color={styles.colorTheme} />*/}
                           <ListItemText primary={<p style={styles.menuItem}>Home</p>} />
                   </ListItem>
                   <ListItem button onClick={() => {window.location.assign('/membros')}}>
-                      <FontAwesomeIcon icon={faUsers} size='2x' color={styles.colorTheme} />
+                      {/*<FontAwesomeIcon icon={faUsers} size='2x' color={styles.colorTheme} />*/}
                       <ListItemText primary={<p style={styles.menuItem}>Integrantes</p>} />
                   </ListItem>
                   <ListItem button onClick={() => {window.location.assign('/atividades')}}>
-                          <FontAwesomeIcon icon={faHandSpock} size='2x' color={styles.colorTheme} />
+                          {/*<FontAwesomeIcon icon={faHandSpock} size='2x' color={styles.colorTheme} />*/}
                           <ListItemText primary={<p style={styles.menuItem}>Atividades</p>} />
                   </ListItem>
-                  <ListItem button>
-                      <FontAwesomeIcon icon={faCopy} size='2x' color={styles.colorTheme} />
+                  <ListItem button onClick={() => {window.location.assign('/editais')}}>
+                      {/*<FontAwesomeIcon icon={faCopy} size='2x' color={styles.colorTheme} />*/}
                       <ListItemText primary={<p style={styles.menuItem}>Editais</p>} />
                   </ListItem>
-                  <ListItem button>
+                  {/*<ListItem button>
                       <FontAwesomeIcon icon={faEnvelope} size='2x' color={styles.colorTheme} />
                       <ListItemText primary={<p style={styles.menuItem}>Contato</p>} />
-                  </ListItem>
+                  </ListItem>*/}
               </List>
           </div>
       );

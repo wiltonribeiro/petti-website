@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Description from "./Sections/Description";
-import Activity from "./Sections/Activity";
+import ActivityList from "./Sections/ActivityList";
+import AppBar from "../../components/AppBar";
+import Footer from "../../components/Footer";
 
 const styles = {
     
@@ -11,8 +13,10 @@ class Activities extends Component {
   render() {
     return (
         <div>
+            <AppBar/>
             <Description/>
-            <Activity/>
+            <ActivityList/>
+            <Footer/>
         </div>
     );
   }

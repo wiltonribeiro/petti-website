@@ -10,11 +10,12 @@ body {
 
 /*To divide images, based on w3schools*/
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
-.w3-row-padding>.w3-third, .w3-row-padding>.w3-quarter{padding:0 8px}
-.w3-third, .w3-quarter{float:left;width:100%}
+.w3-row-padding>.w3-half,.w3-row-padding>.w3-third, .w3-row-padding>.w3-quarter{padding:0 8px}
+.w3-half,.w3-third, .w3-quarter{float:left;width:100%}
 @media (min-width:601px){
   .w3-third{width:33.33333%}
   .w3-quarter{width:24.99999%}
+  .w3-half{width:49.99999%}
 }
 .w3-row-padding:after,.w3-row-padding:before{content:"";display:table;clear:both}
 
@@ -57,4 +58,55 @@ html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
     color: white;
     background: none;
     font-weight: bold;
+}
+
+/*NotFound Page*/
+.code-area {
+    color: #d3d7de;
+    padding: 20px;
+    position: absolute;
+    width: 320px;
+    min-width: 320px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.code-area > span {
+    display: block;
+}
+
+@media screen and (max-width: 320px) {
+    .code-area {
+        font-size: 5vw;
+        min-width: auto;
+        width: 95%;
+        margin: auto;
+        padding: 5px;
+        padding-left: 10px;
+        line-height: 6.5vw;
+    }
+}
+
+/*Social*/
+
+.instagram, .facebook, .github {
+    cursor: pointer;
+    margin-top:-20px!important;
+    margin-right:40px;
+    margin-left:40px;
+}
+
+.instagram:hover{
+    color: #c32aa3;
+}
+
+.facebook:hover{
+    color: #3b5998;
+}
+
+.github:hover{
+    color:#34465d
+
 }

@@ -7,16 +7,9 @@ import { faInstagram, faFacebook, faGithub } from '@fortawesome/free-brands-svg-
 
 const styles = {
     root:{
-        marginTop:"20px",
         color:"#fff",
         fontFamily:"Poppins"
     },
-    socialIcons:{
-        cursor:"pointer",
-        marginTop:"-20px!important",
-        marginRight:40,
-        marginLeft:40
-    }
 };
 
 class Social extends Component {
@@ -31,9 +24,9 @@ class Social extends Component {
                     <h5 style={{marginTop:"-20px"}}>Esteja perto do PET e acompanhe as nossas novidades</h5>
                 </Hidden>
                 <div>
-                    <FontAwesomeIcon icon={faInstagram} style={styles.socialIcons} size='2x' color="#fff" />
-                    <FontAwesomeIcon icon={faFacebook} style={styles.socialIcons} size='2x' color="#fff" />
-                    <FontAwesomeIcon icon={faGithub} style={styles.socialIcons} size='2x' color="#fff" />
+                    <FontAwesomeIcon onClick={() => {window.location.href = "https://www.instagram.com/pettiqx/"}} icon={faInstagram} className="instagram" size='2x' color="#fff" />
+                    <FontAwesomeIcon onClick={() => {window.location.href = "https://www.facebook.com/pettiqx"}} icon={faFacebook} className="facebook" size='2x' color="#fff" />
+                    <FontAwesomeIcon onClick={() => {window.location.href = "https://github.com/wiltonribeiro/petti-website"}} icon={faGithub} className="github" size='2x' color="#fff" />
                 </div>
             </div>
         } />

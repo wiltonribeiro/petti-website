@@ -3,6 +3,8 @@ import Initial from "./Sections/Initial";
 import About from "./Sections/About";
 import Social from "./Sections/Social";
 import Media from "./Sections/Media";
+import AppBar from "../../components/AppBar";
+import Footer from "../../components/Footer";
 
 const styles = {
 
@@ -16,10 +18,12 @@ class Home extends Component {
 
     return (
         <div>
+            <AppBar/>
             <Initial/>
             <About/>
             <Social/>
             <Media/>
+            <Footer/>
         </div>
     );
   }

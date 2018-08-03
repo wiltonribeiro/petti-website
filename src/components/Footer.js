@@ -37,14 +37,14 @@ class Footer extends Component {
                   </div>
                   <div className="w3-third">
                       <h3>LINKS</h3>
-                      <span style={styles.artificialLink}><b>Portal UFC</b></span>
-                        <br/><span style={styles.artificialLink}><b>Curso de Ciência da Computação</b></span>
-                        <br/><span style={styles.artificialLink}><b>Curso de Engenharia de Software</b></span>
-                        <br/><span style={styles.artificialLink}><b>Curso de Engenharia de Computação</b></span>
-                        <br/><span style={styles.artificialLink}><b>Curso de Sistemas de Informação</b></span>
-                        <br/><span style={styles.artificialLink}><b>Curso de Design Digital</b></span>
-                        <br/><span style={styles.artificialLink}><b>Curso de Redes de Computadores</b></span>
-                        <br/>
+                      <span style={styles.artificialLink} onClick={() => {window.location.href = "https://www.quixada.ufc.br/"}}><b>Portal UFC</b></span>
+                      <br/><span style={styles.artificialLink} onClick={() => {window.location.href = "http://www.cc.quixada.ufc.br/"}}><b>Curso de Ciência da Computação</b></span>
+                      <br/><span style={styles.artificialLink} onClick={() => {window.location.href = "https://es.quixada.ufc.br/"}}><b>Curso de Engenharia de Software</b></span>
+                      <br/><span style={styles.artificialLink} onClick={() => {window.location.href = "http://www.ec.quixada.ufc.br/"}}><b>Curso de Engenharia de Computação</b></span>
+                      <br/><span style={styles.artificialLink} onClick={() => {window.location.href = "http://www.si.quixada.ufc.br/"}}><b>Curso de Sistemas de Informação</b></span>
+                      <br/><span style={styles.artificialLink} onClick={() => {window.location.href = "http://www.dd.quixada.ufc.br/"}}><b>Curso de Design Digital</b></span>
+                      <br/><span style={styles.artificialLink} onClick={() => {window.location.href = "http://www.rc.quixada.ufc.br/"}}><b>Curso de Redes de Computadores</b></span>
+                      <br/>
                   </div>
                   <div className="w3-third">
                       <img src={ufc} width="80%"/>
