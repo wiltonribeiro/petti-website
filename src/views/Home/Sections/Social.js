@@ -24,9 +24,9 @@ class Social extends Component {
                     <h5 style={{marginTop:"-20px"}}>Esteja perto do PET e acompanhe as nossas novidades</h5>
                 </Hidden>
                 <div>
-                    <FontAwesomeIcon onClick={() => {window.location.href = "https://www.instagram.com/pettiqx/"}} icon={faInstagram} className="instagram" size='2x' color="#fff" />
-                    <FontAwesomeIcon onClick={() => {window.location.href = "https://www.facebook.com/pettiqx"}} icon={faFacebook} className="facebook" size='2x' color="#fff" />
-                    <FontAwesomeIcon onClick={() => {window.location.href = "https://github.com/wiltonribeiro/petti-website"}} icon={faGithub} className="github" size='2x' color="#fff" />
+                    <a href="https://www.instagram.com/pettiqx/"><FontAwesomeIcon icon={faInstagram} className="instagram" size='2x' color="#fff" /> </a>
+                    <a href="https://www.facebook.com/pettiqx"><FontAwesomeIcon icon={faFacebook} className="facebook" size='2x' color="#fff" /></a>
+                    <a href="https://github.com/wiltonribeiro/petti-website"><FontAwesomeIcon icon={faGithub} className="github" size='2x' color="#fff" /></a>
                 </div>
             </div>
         } />

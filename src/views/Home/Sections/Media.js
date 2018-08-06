@@ -55,18 +55,18 @@ class Media extends Component {
             <div className="w3-row-padding" style={{padding:10}}>
                 <div className="w3-third">
                     <img src={img1} alt="PET TI - CBSOFT 2017 em Fortaleza" onClick={(e) => this.handleClickOpen(e.target.alt,img1)} style={{width:"100%"}}/>
-                    <img src={img4} alt="descrição" onClick={(e) => this.handleClickOpen(e.target.alt,img4)} style={{width:"100%"}}/>
-                    <img src={img5} alt="descrição" onClick={(e) => this.handleClickOpen(e.target.alt,img5)} style={{width:"100%"}}/>
+                    <img src={img4} alt="InfoGirl 2017" onClick={(e) => this.handleClickOpen(e.target.alt,img4)} style={{width:"100%"}}/>
+                    <img src={img5} alt="Painel InforGirl nos Encontros Universitários 2017" onClick={(e) => this.handleClickOpen(e.target.alt,img5)} style={{width:"100%"}}/>
                 </div>
                 <div className="w3-third">
-                    <img src={img2} alt="descrição" onClick={(e) => this.handleClickOpen(e.target.alt,img2)} style={{width:"100%"}}/>
-                    <img src={img6} alt="descrição" onClick={(e) => this.handleClickOpen(e.target.alt,img6)} style={{width:"100%"}}/>
-                    <img src={img7} alt="descrição" onClick={(e) => this.handleClickOpen(e.target.alt,img7)} style={{width:"100%"}}/>
+                    <img src={img2} alt="Recepção GameNight 2017" onClick={(e) => this.handleClickOpen(e.target.alt,img2)} style={{width:"100%"}}/>
+                    <img src={img6} alt="Mesa de jogos na Game Night 2017" onClick={(e) => this.handleClickOpen(e.target.alt,img6)} style={{width:"100%"}}/>
+                    <img src={img7} alt="Doação dos Alimentos recolhidos pela Game Night 2017" onClick={(e) => this.handleClickOpen(e.target.alt,img7)} style={{width:"100%"}}/>
                 </div>
                 <div className="w3-third">
-                    <img src={img3} alt="descrição" onClick={(e) => this.handleClickOpen(e.target.alt,img3)} style={{width:"100%"}}/>
-                    <img src={img8} alt="descrição" onClick={(e) => this.handleClickOpen(e.target.alt,img8)} style={{width:"100%"}}/>
-                    <img src={img9} alt="descrição" onClick={(e) => this.handleClickOpen(e.target.alt,img9)} style={{width:"100%"}}/>
+                    <img src={img3} alt="Abertura FLISol 2017" onClick={(e) => this.handleClickOpen(e.target.alt,img3)} style={{width:"100%"}}/>
+                    <img src={img8} alt="Minicurso FLISol 2017" onClick={(e) => this.handleClickOpen(e.target.alt,img8)} style={{width:"100%"}}/>
+                    <img src={img9} alt="Organização FLISol 2017" onClick={(e) => this.handleClickOpen(e.target.alt,img9)} style={{width:"100%"}}/>
                 </div>
             </div>
       </div>
