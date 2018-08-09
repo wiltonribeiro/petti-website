@@ -5,6 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Menu from "./Menu"
 import Button from "@material-ui/core/Button"
 import Hidden from "@material-ui/core/Hidden"
+import { Link } from 'react-router-dom';
 
 const styles = {
     root: {
@@ -29,9 +30,15 @@ class AppBar extends Component {
                   <img src={logo} onClick={() => {window.location.assign('/')}} style={styles.img} />
                   <p style={styles.flex}/>
                   <Hidden  only={['sm', 'xs']}>
-                      <Button color="inherit" onClick={() => {window.location.assign('/atividades')}} style={{fontFamily:"Poppins"}}>ATIVIDADES</Button>
-                      <Button color="inherit" onClick={() => {window.location.assign('/membros')}} style={{fontFamily:"Poppins"}}>INTEGRANTES</Button>
-                      <Button color="inherit" onClick={() => {window.location.assign('/editais')}} style={{fontFamily:"Poppins"}}>EDITAIS</Button>
+                      <Link to="/atividades" className="link">
+                          <Button color="inherit" style={{fontFamily:"Poppins"}}>ATIVIDADES</Button>
+                      </Link>
+                      <Link to="/membros" className="link">
+                        <Button color="inherit" style={{fontFamily:"Poppins"}}>INTEGRANTES</Button>
+                      </Link>
+                      <Link to="/editais" className="link">
+                        <Button color="inherit" style={{fontFamily:"Poppins"}}>EDITAIS</Button>
+                      </Link>
                   </Hidden>
                   <Hidden  only={['lg','xl','md']}>
                       <Menu/>

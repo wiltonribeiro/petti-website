@@ -52,6 +52,11 @@ html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
     display: none;
 }
 
+.link{
+    text-decoration: none!important;
+    color: black!important;
+}
+
 .memberImage:hover ~ .memberAbout{
     padding: 10px;
     display: block;

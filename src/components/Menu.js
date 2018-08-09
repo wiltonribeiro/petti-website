@@ -5,7 +5,8 @@ import Drawer from '@material-ui/core/Drawer';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faBars, faUsers, faHandSpock, faEnvelope, faCopy } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
+import {faBars} from '@fortawesome/free-solid-svg-icons'
 
 const styles = {
     list: {
@@ -42,26 +43,26 @@ class Menu extends Component {
       const sideList = (
           <div style={styles.list}>
               <List component="nav">
-                  <ListItem button onClick={() => {window.location.assign('/')}}>
-                          {/*<FontAwesomeIcon icon={faHome} size='2x' color={styles.colorTheme} />*/}
-                          <ListItemText primary={<p style={styles.menuItem}>Home</p>} />
-                  </ListItem>
-                  <ListItem button onClick={() => {window.location.assign('/membros')}}>
-                      {/*<FontAwesomeIcon icon={faUsers} size='2x' color={styles.colorTheme} />*/}
-                      <ListItemText primary={<p style={styles.menuItem}>Integrantes</p>} />
-                  </ListItem>
-                  <ListItem button onClick={() => {window.location.assign('/atividades')}}>
-                          {/*<FontAwesomeIcon icon={faHandSpock} size='2x' color={styles.colorTheme} />*/}
-                          <ListItemText primary={<p style={styles.menuItem}>Atividades</p>} />
-                  </ListItem>
-                  <ListItem button onClick={() => {window.location.assign('/editais')}}>
-                      {/*<FontAwesomeIcon icon={faCopy} size='2x' color={styles.colorTheme} />*/}
-                      <ListItemText primary={<p style={styles.menuItem}>Editais</p>} />
-                  </ListItem>
-                  {/*<ListItem button>
-                      <FontAwesomeIcon icon={faEnvelope} size='2x' color={styles.colorTheme} />
-                      <ListItemText primary={<p style={styles.menuItem}>Contato</p>} />
-                  </ListItem>*/}
+                  <Link to="/" className="link">
+                      <ListItem button onClick={() => {window.location.assign('/')}}>
+                              <ListItemText primary={<p style={styles.menuItem}>Home</p>} />
+                      </ListItem>
+                  </Link>
+                  <Link to="/membros" className="link">
+                      <ListItem button onClick={() => {window.location.assign('/membros')}}>
+                          <ListItemText primary={<p style={styles.menuItem}>Integrantes</p>} />
+                      </ListItem>
+                  </Link>
+                  <Link to="/atividades" className="link">
+                      <ListItem button onClick={() => {window.location.assign('/atividades')}}>
+                              <ListItemText primary={<p style={styles.menuItem}>Atividades</p>} />
+                      </ListItem>
+                  </Link>
+                  <Link to="/editais" className="link">
+                      <ListItem button onClick={() => {window.location.assign('/editais')}}>
+                          <ListItemText primary={<p style={styles.menuItem}>Editais</p>} />
+                      </ListItem>
+                  </Link>
               </List>
           </div>
       );
