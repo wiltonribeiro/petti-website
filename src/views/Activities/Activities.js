@@ -4,10 +4,6 @@ import ActivityList from "./Sections/ActivityList";
 import AppBar from "../../components/AppBar";
 import Footer from "../../components/Footer";
 
-const styles = {
-    
-};
-
 class Activities extends Component {
 
   render() {

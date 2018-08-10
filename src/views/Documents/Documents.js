@@ -4,10 +4,6 @@ import AppBar from "../../components/AppBar";
 import Footer from "../../components/Footer";
 import DocumentsList from "./Sections/DocumentsList";
 
-const styles = {
-    
-};
-
 class Documents extends Component {
 
   render() {

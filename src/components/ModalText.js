@@ -6,10 +6,6 @@ import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogActions from '@material-ui/core/DialogActions';
 import Button from '@material-ui/core/Button';
 
-const styles = {
-
-};
-
 class ModalPhoto extends Component {
     state = {
         open: false

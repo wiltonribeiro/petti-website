@@ -1,14 +1,14 @@
 {
-  "short_name": "PET TI - UFC Quixadá",
+  "short_name": "PET TI",
   "name": "PET TI - Universidade Federal do Ceará, Campus Quixadá",
   "icons": [
     {
-      "src": "icon.png",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src":"icon.png",
+      "sizes": "192x192",
       "type": "image/png"
     }
   ],
-  "start_url": "./index.html",
+  "start_url": "/?utm_source=homescreen",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

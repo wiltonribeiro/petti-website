@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import background from '../../../images/campus2.jpg'
+import background from '../../../images/campus2.jpg';
 import Hidden from '@material-ui/core/Hidden';
+import Zoom from "@material-ui/core/Zoom";
 
 const styles = {
     root: {
@@ -34,12 +35,16 @@ class Initial extends Component {
         return (
             <div style={styles.root}>
                 <div style={styles.divText}>
-                    <p style={styles.title}>Bem-Vindo</p>
-                    <Hidden  only={['sm', 'xs']}>
-                        <p style={styles.subTitle}><strong>Conheça nossa nova página do
-                            PET TI - Conexões de Saberes, UFC Quixáda</strong>
-                        </p>
-                    </Hidden>
+                    <Zoom in={true} style={{ transitionDelay: 500}}>
+                        <p style={styles.title}>Bem-Vindo</p>
+                    </Zoom>
+                        <Hidden  only={['sm', 'xs']}>
+                            <Zoom in={true} style={{ transitionDelay: 1000}}>
+                            <p style={styles.subTitle}><strong>Conheça nossa nova página do
+                                PET TI - Conexões de Saberes, UFC Quixáda</strong>
+                            </p>
+                            </Zoom>
+                        </Hidden>
                 </div>
             </div>
         );

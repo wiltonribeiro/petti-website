@@ -6,12 +6,6 @@ import Media from "./Sections/Media";
 import AppBar from "../../components/AppBar";
 import Footer from "../../components/Footer";
 
-const styles = {
-
-};
-
-
-
 class Home extends Component {
 
   render() {

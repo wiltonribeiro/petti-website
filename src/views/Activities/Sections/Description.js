@@ -4,10 +4,6 @@ import background from "../../../images/paulo.JPG"
 import backgroundMobile from "../../../images/lucas.jpg"
 import Hidden from '@material-ui/core/Hidden';
 
-const styles = {
-
-};
-
 class Description extends Component {
 
   render() {

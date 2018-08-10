@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-import ecopet from '../../../images/activities/ecopet.png'
-import infogirl from '../../../images/activities/infogirl.png'
-import gamenight from '../../../images/activities/gn.png'
-import flisol from '../../../images/activities/flisol.png'
-import recepcao from '../../../images/activities/recepção.png'
-import programacao from '../../../images/activities/programacao.png'
-import microcontroladores from '../../../images/activities/microcontroladores.png'
-import englishclub from '../../../images/activities/englishclube.png'
-import seminarios from '../../../images/activities/seminarios2.png'
-import obi from '../../../images/activities/programacao.png'
+import ecopet from '../../../images/activities/atividades_ecopet.png'
+import infogirl from '../../../images/activities/atividades_infogirl.png'
+import gamenight from '../../../images/activities/atividades_game night.png'
+import flisol from '../../../images/activities/atividades_flisol.png'
+import recepcao from '../../../images/activities/atividades_recepção.png'
+import programacao from '../../../images/activities/atividades_ensino_programação.png'
+// import microcontroladores from '../../../images/activities/atividades_microcontroladores.png'
+import englishclub from '../../../images/activities/atividades_english_club.png'
+import seminarios from '../../../images/activities/atividades_seminarios.png'
+import obi from '../../../images/activities/atividades_obi_maratona.png'
 
 import ModalText from '../../../components/ModalText'
 
@@ -55,11 +55,11 @@ const contentActivity = {
         title:"Ensino de Programação em Escolas Públicas",
         text:"Segundo Steve Jobs, todos deveriam aprender a programar um computador, pois isso ensina a pensar. Estimular o crescimento de uma sociedade futura mais capacitada no que diz respeito à “arte de pensar” é uma problemática que queremos atacar através do ensino de programação. Ainda há uma carência do ensino de programação no ensino fundamental e médio, especialmente em escolas públicas. Nesse contexto, o objetivo dessa atividade é iniciar o ensino de programação no ensino médio de escolas públicas.\n"
     },
-    microcontroladores:{
-        image:microcontroladores,
-        title:"Ensino de microcontroladores na escola profissional de Quixadá",
-        text:"O entusiasmo pela robótica e automação leva vários jovens a se aventurar na construção de projetos que envolvem hardware e software. Os microcontroladores são a “espinha dorsal” de projetos de robótica e automação. Tais dispositivos controlam e gerenciam os demais componentes do sistema. Nesse contexto, conhecimentos em eletrônica e programação, tornam-se fundamentais para o jovem desenvolvedor. A atividade tem como objetivo introduzir os conceitos de microcontroladores aos alunos de informática da EEEP Maria Cavalcante Costa, escola profissional de Quixadá, por meio de aulas exploratórias e desenvolvimento de projetos. A escolha da escola profissional para desenvolver a atividades foi devido aos alunos voltados para o curso de informática terem noção de lógica de programação.\n"
-    },
+    // microcontroladores:{
+    //     image:microcontroladores,
+    //     title:"Ensino de microcontroladores na escola profissional de Quixadá",
+    //     text:"O entusiasmo pela robótica e automação leva vários jovens a se aventurar na construção de projetos que envolvem hardware e software. Os microcontroladores são a “espinha dorsal” de projetos de robótica e automação. Tais dispositivos controlam e gerenciam os demais componentes do sistema. Nesse contexto, conhecimentos em eletrônica e programação, tornam-se fundamentais para o jovem desenvolvedor. A atividade tem como objetivo introduzir os conceitos de microcontroladores aos alunos de informática da EEEP Maria Cavalcante Costa, escola profissional de Quixadá, por meio de aulas exploratórias e desenvolvimento de projetos. A escolha da escola profissional para desenvolver a atividades foi devido aos alunos voltados para o curso de informática terem noção de lógica de programação.\n"
+    // },
     englishclub:{
         image:englishclub,
         title:"Grupo de estudo focado no aprendizado da língua inglesa",
