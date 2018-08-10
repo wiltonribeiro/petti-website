@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { HashRouter as Router, Route, Switch} from "react-router-dom";
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import theme from "./theme/Theme"
 import Members from "./views/Members/Members";
@@ -17,9 +17,9 @@ class App extends Component {
               <MuiThemeProvider theme={theme}>
                   <Switch>
                       <Route exact path="/" component={Home} />
-                      <Route exact path="/atividades" component={Activities} />
-                      <Route exact path="/membros" component={Members} />
-                      <Route exact path="/editais" component={Documents} />
+                      <Route path="/atividades" component={Activities} />
+                      <Route path="/membros" component={Members} />
+                      <Route path="/editais" component={Documents} />
                       <Route path={"*"} component={NotFound} />
                   </Switch>
               </MuiThemeProvider>
