@@ -11,7 +11,7 @@ const content = {
             "\n" + "A seleção ocorrerá nos dias 20, 22 e 23 do mesmo mês.",
             buttons:[
                 {color:"primary", link:"https://www.quixada.ufc.br/wp-content/uploads/2018/08/Edital-2018.2.pdf", content:"Link para o Edital"},
-                {color:"primary", link:"goo.gl/rfPsJ", content:"Formulário de Inscrição"},
+                {color:"primary", link:"https://goo.gl/rfPsJ", content:"Formulário de Inscrição"},
                 {color:"primary", link:"https://goo.gl/JokUL5", content:"Nosso Regulamento"},
             ]
         }
