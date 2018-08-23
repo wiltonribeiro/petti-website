@@ -44,22 +44,22 @@ class Menu extends Component {
           <div style={styles.list}>
               <List component="nav">
                   <Link to="/" className="link">
-                      <ListItem button onClick={() => {window.location.assign('/')}}>
+                      <ListItem button>
                               <ListItemText primary={<p style={styles.menuItem}>Home</p>} />
                       </ListItem>
                   </Link>
                   <Link to="/membros" className="link">
-                      <ListItem button onClick={() => {window.location.assign('/membros')}}>
+                      <ListItem button>
                           <ListItemText primary={<p style={styles.menuItem}>Integrantes</p>} />
                       </ListItem>
                   </Link>
                   <Link to="/atividades" className="link">
-                      <ListItem button onClick={() => {window.location.assign('/atividades')}}>
+                      <ListItem button>
                               <ListItemText primary={<p style={styles.menuItem}>Atividades</p>} />
                       </ListItem>
                   </Link>
-                  <Link to="/editais" className="link">
-                      <ListItem button onClick={() => {window.location.assign('/editais')}}>
+                  <Link to="/noticias" className="link">
+                      <ListItem button>
                           <ListItemText primary={<p style={styles.menuItem}>Editais</p>} />
                       </ListItem>
                   </Link>

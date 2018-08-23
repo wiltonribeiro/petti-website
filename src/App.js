@@ -6,7 +6,7 @@ import Members from "./views/Members/Members";
 import Home from "./views/Home/Home";
 import Activities from "./views/Activities/Activities";
 import NotFound from "./views/NotFound/NotFound";
-import Documents from "./views/Documents/Documents";
+import News from "./views/News/News";
 
 
 class App extends Component {
@@ -19,7 +19,7 @@ class App extends Component {
                       <Route exact path="/" component={Home} />
                       <Route path="/atividades" component={Activities} />
                       <Route path="/membros" component={Members} />
-                      <Route path="/editais" component={Documents} />
+                      <Route path="/noticias" component={News} />
                       <Route path={"*"} component={NotFound} />
                   </Switch>
               </MuiThemeProvider>

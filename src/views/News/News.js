@@ -2,20 +2,20 @@ import React, { Component } from 'react';
 import Description from "./Sections/Description";
 import AppBar from "../../components/AppBar";
 import Footer from "../../components/Footer";
-import DocumentsList from "./Sections/DocumentsList";
+import NewsList from "./Sections/NewsList";
 
-class Documents extends Component {
+class News extends Component {
 
   render() {
     return (
         <div>
             <AppBar/>
             <Description/>
-            <DocumentsList/>
+            <NewsList/>
             <Footer/>
         </div>
     );
   }
 }
 
-export default Documents;
+export default News;
