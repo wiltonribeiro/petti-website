@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d960578-b172-4d06-a10e-944a48b877ef" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/views/Articles/Articles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Articles/Sections/ArticleList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Articles/Sections/Description.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,8 +26,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="272">
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -28,11 +35,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsList.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/views/News/Sections/NewsList.js">
+      <file leaf-file-name="AppBar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/AppBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="221" selection-start-line="12" selection-start-column="221" selection-end-line="12" selection-end-column="221" />
+            <state relative-caret-position="578">
+              <caret line="41" column="60" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Articles.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/Articles/Articles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticleList.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/views/Articles/Sections/ArticleList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="61" column="15" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="15" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -47,6 +75,7 @@
       <find>import React\, \{ Component \} from \'react\'\;\nimport Bar from \'\@material\-ui\/core\/AppBar\'\;\nimport logo from \'\.\.\/images\/logo\.png\'\;\nimport Toolbar from \'\@material\-ui\/core\/Toolbar\'\;\nimport Typography from \'\@material\-ui\/core\/Typography\'\;\n\nconst styles \= \{\n    list\: \{\n        width\: 250\,\n    \}\,\n    fullList\: \{\n        width\: \'auto\'\,\n    \}\,\n\}\;\n\n\n\nclass Menu extends Component \{\n\n    state \= \{\n        top\: false\,\n        left\: false\,\n        bottom\: false\,\n        right\: false\,\n    \}\;\n\n    toggleDrawer \= \(side\, open\) \=\&gt; \(\) \=\&gt; \{\n        this\.setState\(\{\n            \[side\]\: open\,\n        \}\)\;\n    \}\;\n\n  render\(\) \{\n    return \(\n\n    \)\;\n  \}\n\}\n\nexport default Menu\;\n</find>
       <find>styles</find>
       <find>fy</find>
+      <find>classes</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -69,14 +98,12 @@
         <option value="$PROJECT_DIR$/src/theme/Theme.js" />
         <option value="$PROJECT_DIR$/src/components/ModalPhoto.js" />
         <option value="$PROJECT_DIR$/src/components/NewsModel.js" />
-        <option value="$PROJECT_DIR$/src/components/Footer.js" />
         <option value="$PROJECT_DIR$/firebase.json" />
         <option value="$PROJECT_DIR$/src/views/Documents/Sections/Description.js" />
         <option value="$PROJECT_DIR$/src/views/Home/Sections/Media.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/views/Home/Sections/Social.js" />
         <option value="$PROJECT_DIR$/.firebaserc" />
-        <option value="$PROJECT_DIR$/src/css/index.css" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/views/Activities/Sections/ActivityList.js" />
         <option value="$PROJECT_DIR$/build/service-worker.js" />
@@ -92,11 +119,17 @@
         <option value="$PROJECT_DIR$/src/components/ModalText.js" />
         <option value="$PROJECT_DIR$/src/views/Documents/Sections/DocumentsList.js" />
         <option value="C:/xampp/htdocs/.htaccess" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Menu.js" />
-        <option value="$PROJECT_DIR$/src/components/AppBar.js" />
         <option value="$PROJECT_DIR$/src/views/News/Sections/Description.js" />
         <option value="$PROJECT_DIR$/src/views/News/Sections/NewsList.js" />
+        <option value="$PROJECT_DIR$/src/components/AppBar.js" />
+        <option value="$PROJECT_DIR$/src/views/Articles/Sections/NewsList.js" />
+        <option value="$PROJECT_DIR$/src/views/Articles/Articles.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/css/index.css" />
+        <option value="$PROJECT_DIR$/src/components/Footer.js" />
+        <option value="$PROJECT_DIR$/src/views/Articles/Sections/Description.js" />
+        <option value="$PROJECT_DIR$/src/views/Articles/Sections/ArticleList.js" />
       </list>
     </option>
   </component>
@@ -126,7 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,12 +175,6 @@
               <item name="petti-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="petti-website" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="petti-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="petti-website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -156,20 +182,21 @@
               <item name="petti-website" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="News" type="462c0819:PsiDirectoryNode" />
+              <item name="Articles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="petti-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="petti-website" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="News" type="462c0819:PsiDirectoryNode" />
+              <item name="Articles" type="462c0819:PsiDirectoryNode" />
               <item name="Sections" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,18 +206,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\willn\Desktop\Will\Projetos\petti-website\src\pdfs" />
+      <recent name="C:\Users\willn\Desktop\Will\Projetos\petti-website\src\views\Articles" />
+      <recent name="C:\Users\willn\Desktop\Will\Projetos\petti-website\src\views" />
+      <recent name="C:\Users\willn\Desktop\Will\Projetos\petti-website\src\components" />
+      <recent name="C:\Users\willn\Desktop\Will\Projetos\petti-website\src\views\Documents" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\willn\Desktop\Will\Projetos\petti-website\src\css" />
       <recent name="C:\Users\willn\Desktop\Will\Projetos\petti-website\src\theme" />
       <recent name="C:\Users\willn\Desktop\Will\Projetos\petti-website\src\views\Home" />
       <recent name="C:\Users\willn\Desktop\Will\Projetos\petti-website\src\components" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\willn\Desktop\Will\Projetos\petti-website\src\views" />
-      <recent name="C:\Users\willn\Desktop\Will\Projetos\petti-website\src\components" />
-      <recent name="C:\Users\willn\Desktop\Will\Projetos\petti-website\src\views\Documents" />
-      <recent name="C:\Users\willn\Desktop\Will\Projetos\petti-website\src\views\NotFound" />
-      <recent name="C:\Users\willn\Desktop\Will\Projetos\petti-website\src\views\Members" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -235,18 +262,23 @@
       <workItem from="1534161152425" duration="33000" />
       <workItem from="1535051722910" duration="3314000" />
       <workItem from="1535252325058" duration="7000" />
+      <workItem from="1539135231588" duration="7236000" />
+      <workItem from="1539270707907" duration="106000" />
+      <workItem from="1541354183534" duration="19000" />
+      <workItem from="1541553486639" duration="167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97414000" />
+    <option name="totallyTimeSpent" value="104942000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12079063" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -256,7 +288,6 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -272,27 +303,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Activities/Sections/ActivityList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="55" lean-forward="true" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -353,13 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Members/Sections/MembersList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="89" column="62" lean-forward="true" selection-start-line="89" selection-start-column="62" selection-end-line="89" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/NotFound/NotFound.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -379,13 +382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="39" column="128" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="128" />
         </state>
       </provider>
     </entry>
@@ -426,13 +422,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="28" column="75" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -503,13 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Members/Members.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Home/Home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -560,27 +542,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AppBar.js">
+    <entry file="file://$PROJECT_DIR$/src/views/News/Sections/NewsList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="272">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/News/Sections/NewsList.js">
+    <entry file="file://$PROJECT_DIR$/src/views/Members/Members.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="221" selection-start-line="12" selection-start-column="221" selection-end-line="12" selection-end-column="221" />
+        <state>
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Members/Sections/MembersList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="89" column="35" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AppBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="41" column="60" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="118" column="1" lean-forward="true" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Articles/Sections/Description.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Articles/Articles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/Articles/Sections/ArticleList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="61" column="15" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="15" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

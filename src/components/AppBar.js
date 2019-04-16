@@ -36,6 +36,9 @@ class AppBar extends Component {
                       <Link to="/membros" className="link">
                         <Button color="inherit" style={{fontFamily:"Poppins"}}>INTEGRANTES</Button>
                       </Link>
+                      <Link to="/artigos" className="link">
+                          <Button color="inherit" style={{fontFamily:"Poppins"}}>ARTIGOS</Button>
+                      </Link>
                       <Link to="/noticias" className="link">
                         <Button color="inherit" style={{fontFamily:"Poppins"}}>NOTÍCIAS</Button>
                       </Link>

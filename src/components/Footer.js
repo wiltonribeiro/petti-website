@@ -52,7 +52,7 @@ class Footer extends Component {
                   </div>
               </div>
           </div>
-            <div style={{padding:10, color:"#777", fontSize:'11px', textAlign: "center"}}>
+            <div style={{padding:10, marginBottom:30, color:"#777", fontSize:'11px', textAlign: "center"}}>
                 <p>© 2017 PET TI UFC, Todos os direitos reservados.</p>
             </div>
       </div>
