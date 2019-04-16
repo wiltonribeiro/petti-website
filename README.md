@@ -1,5 +1,5 @@
-# Construção do site oficial do PET TI - Conexão de Saberes UFC Quixadá
+# PET TI Web Site - Conexão de Saberes UFC Quixadá
 
-#### Desenvolvimento
-O Site tem sido desenvolvido com o framework ReactJS. O site ainda não se encontra no ar, com previsão para a publicação no dia 10/08/2018.
+#### About
+This web site was developed with ReactJS. The website is avaible [here](http://petti.quixada.ufc.br/).
 
